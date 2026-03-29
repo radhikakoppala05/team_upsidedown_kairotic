@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="login.png" alt="Login Image" />
+    <p class="greet">Hello, <span id="userName">User</span>!</p>
+
+    <script>
+      let name = localStorage.getItem("userName");
+
+      if (name) {
+        document.getElementById("userName").textContent = name;
+      }
+    </script>
+    <p class="telling"><bold>Login to your Google account</bold></p>
+
+    <div class="login-box">
+      <h2>Login</h2>
+
+      <form>
+        <input type="text" placeholder="Enter your email" required />
+        <input type="password" placeholder="Enter password" required />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
