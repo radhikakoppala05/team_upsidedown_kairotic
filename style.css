@@ -1,0 +1,85 @@
+body.hack {
+  background-color: rgba(166, 123, 212, 0.63);
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+}
+img {
+  width: 704px;
+  height: 754px;
+  border-radius: 352px;
+  display: block;
+  margin: 20px auto;
+  margin-top: 20px;
+  margin-top: 123px;
+}
+p.welcome {
+  text-align: center;
+  color: rgb(245, 7, 185);
+  font-size: 85px;
+  margin-top: -862px;
+}
+input {
+  display: block;
+  font-size: 35px;
+  border: 2px solid #e20a0a;
+  border-radius: 5px;
+}
+p.name {
+  margin-top: 776px;
+  margin-left: 700px;
+}
+body {
+  background-color: rgba(27, 228, 191, 0.42);
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+}
+.login-box {
+  width: 375px;
+  margin: 100px auto;
+  margin-top: 100px;
+  background: #cb550c8c;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  height: 400px;
+  margin-top: -54px;
+}
+/* Input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid rgb(7, 6, 6);
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: purple;
+  color: rgb(238, 237, 243);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkviolet;
+}
+p.greet {
+  padding-top: -500px;
+  text-align: center;
+  color: rgb(45, 3, 244);
+  font-size: 85px;
+  font-family: Arial, sans-serif;
+}
+p.telling {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 36px;
+  padding-top: 0px;
+}
