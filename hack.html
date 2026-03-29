@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hackathon practice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="hack">
+    <img src="krishna.png" alt="Krishna Image" />
+    <p class="welcome">Welcome to the hackathon world!!</p>
+    <p class="name">
+      Enter your name:
+      <input type="text" id="nameInput" />
+      <a href="login.html" onclick="saveName()">Login here</a>
+    </p>
+
+    <script>
+      function saveName() {
+        let name = document.getElementById("nameInput").value;
+        localStorage.setItem("userName", name);
+      }
+    </script>
+    <script>
+      function savename() {
+        var name = document.getElementById("nameInput").value;
+        localStorage.setItem("username", name);
+      }
+    </script>
+  </body>
+</html>
